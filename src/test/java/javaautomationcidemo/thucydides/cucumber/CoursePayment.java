@@ -6,7 +6,7 @@ import cucumber.api.CucumberOptions;
 import net.serenitybdd.cucumber.CucumberWithSerenity;
 
 @RunWith(CucumberWithSerenity.class)
-@CucumberOptions(features="D:\\WorkSpace\\Spring tool suite workspace\\javaautomationcidemo\\src\\test\\resources\\features\\home\\coursepayment.feature")
+@CucumberOptions(features="src/test/resources/features/coursepayment/coursepayment.feature")
 public class CoursePayment {
 
 }
