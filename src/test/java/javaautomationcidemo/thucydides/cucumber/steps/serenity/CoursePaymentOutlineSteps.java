@@ -16,37 +16,32 @@ public class CoursePaymentOutlineSteps extends ScenarioSteps {
 		coursePaymentPage.open();
 	}
 	
-//	@Step
+	@Step
 	public void enterCourseCode(String code) {
 		coursePaymentPage.enterCourseCode(code);
 	}
 
-//	@Step
+	@Step
 	public void enterCourseName(String name) {
 		coursePaymentPage.enterCourseName(name);
 	}
 
-//	@Step
 	public void enterStartDate(String startDate) {
 		coursePaymentPage.enterStartDate(startDate);
 	}
 
-//	@Step
 	public void enterEndDate(String endDate) {
 		coursePaymentPage.enterEndDate(endDate);
 	}
 
-//	@Step
 	public void enterCreaditCard(String card) {
 		coursePaymentPage.enterCreaditCard(card);
 	}
 
-//	@Step
 	public void enterCvv(String cvv) {
 		coursePaymentPage.enterCvv(cvv);
 	}
 
-//	@Step
 	public void clickPayButton() {
 		coursePaymentPage.clickPayButton();
 	}
