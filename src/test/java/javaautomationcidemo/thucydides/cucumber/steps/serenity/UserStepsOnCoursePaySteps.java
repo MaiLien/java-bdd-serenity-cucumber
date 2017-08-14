@@ -6,7 +6,7 @@ import javaautomationcidemo.thucydides.cucumber.pages.CoursePaymentPage;
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.steps.ScenarioSteps;
 
-public class UserStepsOnCoursePayPage extends ScenarioSteps {
+public class UserStepsOnCoursePaySteps extends ScenarioSteps {
 
 	private static final long serialVersionUID = 1L;
 	CoursePaymentPage coursePaymentPage;
