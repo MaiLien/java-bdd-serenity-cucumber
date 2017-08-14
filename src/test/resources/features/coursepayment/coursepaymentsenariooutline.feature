@@ -9,7 +9,7 @@ Feature: Course Payment Online
 #Scenario: is a correct way. Not use Scenario : is wrong because it has space in the
 #middle
 
-	Scenario: Pay successfully with valid information
+	Scenario Outline: Pay successfully with valid information
 		Given I am on the course payment page
 		When I enter my course code as "<my_course_code>"
 		And I enter my course name as "<my_course_name>"
@@ -23,3 +23,4 @@ Feature: Course Payment Online
 	Examples:
 	|my_course_code	|my_course_name	|start_date	|end_date	|my_credit	|my_cvv	|
 	|LienHTM		|Hoang Lien		|12/12/2017	|31/12/2017	|08278973	|123	|
+	|MinhNN			|Hoang Minh		|22/12/2017	|31/09/2017	|08276773	|323	|

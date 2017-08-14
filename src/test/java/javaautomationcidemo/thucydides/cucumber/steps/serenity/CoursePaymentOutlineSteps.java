@@ -33,7 +33,7 @@ public class CoursePaymentOutlineSteps extends ScenarioSteps {
 
 //	@Step
 	public void enterEndDate(String endDate) {
-		coursePaymentPage.enterStartDate(endDate);
+		coursePaymentPage.enterEndDate(endDate);
 	}
 
 //	@Step
