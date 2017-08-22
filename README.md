@@ -8,6 +8,7 @@ Requirement
 * We need to have a tomcat server
 * We need to have a war file of application to be tested
 * We need to deploy the Registration Course on tomcat server . The web application should be ready to used
+* Firefox 44.0.2
 Explaination of projects
 --------------------
 * All gerkins files are located at java-serenity-cucumber/src/test/resources/features/home
